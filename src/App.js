@@ -9,6 +9,8 @@ import Login from './components/Login';
 import Register from './components/Register';
 import ProtectedRoute from './components/ProtectedRoute';
 import { getMe } from './services/api';
+import 'animate.css';
+import './index.css';
 
 const App = () => {
   const [user, setUser] = useState(null);

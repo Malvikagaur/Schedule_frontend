@@ -1,1 +1,23 @@
 
+@import 'tailwindcss/tailwind.css';
+@import 'animate.css/animate.min.css';
+
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 2s ease-in forwards;
+}
+
+.animate-slideIn {
+  animation: slideIn 1.5s ease-out forwards;
+}
