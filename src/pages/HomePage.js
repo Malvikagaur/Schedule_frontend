@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen bg-cover bg-center" style={{ backgroundImage: 'url("https://source.unsplash.com/1600x900/?calendar,scheduling")' }}>
+    <div className="min-h-screen bg-cover bg-center" style={{ backgroundImage: 'url("Website-top-dark-blue.jpg")' }}>
       
       {/* Navbar
       <nav className="bg-gray-900 text-white py-4 shadow-lg sticky top-0 z-50">
